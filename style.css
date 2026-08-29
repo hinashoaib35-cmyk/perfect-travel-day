@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #2a9d8f;
+  color: white;
+  text-align: center;
+  padding: 30px 10px;
+}
+
+header h1 {
+  font-size: 28px;
+}
+
+nav {
+  background-color: #264653;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 15px 20px;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: #2a9d8f;
+}
+
+section {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  color: #2a9d8f;
+  margin-bottom: 15px;
+}
+
+section p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+section img {
+  width: 100%;
+  max-width: 500px;
+  height: 280px;
+  object-fit: cover;
+  display: block;
+  margin: 15px auto;
+  border-radius: 10px;
+}
+
+
+button {
+  background-color: #e76f51;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #d65a3a;
+}
+
+#message {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #264653;
+}
+
+footer {
+  background-color: #264653;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 22px;
+  }
+
+  nav a {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
